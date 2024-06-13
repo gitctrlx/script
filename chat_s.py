@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser(description="Generate text using OpenAI API.")
 parser.add_argument("prompt", type=str, help="The prompt to generate text from.")
 args = parser.parse_args()
 
-client = OpenAI(base_url="http://localhost:3000/v1", api_key="_")
+client = OpenAI(base_url="http://192.168.0.103:3000/v1", api_key="_")
 
 response = client.completions.create(
     model="ensemble",
