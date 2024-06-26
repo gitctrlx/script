@@ -10,7 +10,7 @@ pkg install -y python
 pkg install -y rust
 pkg install -y build-essential
 pkg install -y binutils
-
+               
 # PYTHON SETUP
 echo "[INFO] Installing Python libraries..."
 pip install openai

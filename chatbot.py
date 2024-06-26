@@ -3,7 +3,7 @@ from sys import stdout
 from openai import OpenAI
 
 def chat_with_model():
-    client = OpenAI(base_url="http://192.168.0.103:3000/v1", api_key="_")
+    client = OpenAI(base_url="http://192.168.0.106:3000/v1", api_key="_")
 
     while True:
         prompt = input("Enter your prompt (or 'exit' to quit): ")
